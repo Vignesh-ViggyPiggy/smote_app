@@ -21,7 +21,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "https://jane-auctions-neil-par.trycloudflare.com/generate", // Change to your actual URL
+        "https://switched-wiley-payment-competing.trycloudflare.com/generate", // Change to your actual URL
         formData,
         {
           headers: { "Content-Type": "multipart/form-data" },
